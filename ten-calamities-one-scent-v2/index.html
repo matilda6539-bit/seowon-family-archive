@@ -96,10 +96,12 @@
 .guide-original picture{display:block;width:100%;height:100%}
 .character-card .guide-original img{
  display:block;width:100%;height:100%;aspect-ratio:1/1;
- object-fit:contain;object-position:center;transform:none;
+ object-fit:cover;object-position:center 28%;transform:none;
+ image-rendering:auto;
 }
 @media(max-width:650px){
  .character-card .guide-original{width:min(100%,440px);justify-self:center}
+ .character-card .guide-original img{object-fit:contain;object-position:center}
 }
 </style></head><body>
 <header class="top"><div class="wrap nav"><a class="brand" href="#top">TEN CALAMITIES · ONE SCENT</a><nav class="navlinks"><a href="#world">WORLD</a><a href="#eos">EOS</a><a href="#nox">NOX</a><a href="#guide">GUIDE</a><a href="#truth">TRUTH</a></nav></div></header>
